@@ -118,7 +118,7 @@ img {
     justify-content: center;
     position: sticky;
     z-index: -1;
-    height: 82vh;
+    height: 80vh;
     background-attachment: fixed;
 }
 
@@ -130,7 +130,7 @@ img {
     content: '';
     position: absolute;
     z-index: 2;
-    height: 82vh;
+    height: 80vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
 
@@ -141,7 +141,7 @@ img {
     display: block;
     position: absolute;
     left: 0;
-    top: -40px;
+    top: -120px;
 }
 
 .image-text {
@@ -280,14 +280,15 @@ textarea {
 
     .image-text {
         font-size: 5vw;
+        bottom: 5%;
     }
 
     .image-container {
-        height: 128vh;
+        height: 125vh;
         width: 100%;
         overflow: hidden;
         position: relative;
-        top: -40%;
+        top: -45%;
         margin-bottom: -420px;
     }
 
@@ -301,9 +302,9 @@ textarea {
         position: absolute;
         object-fit: cover;
         object-position: top;
-        top: 65%;
-        left: 60%;
-        transform: translate(-50%) scale(4);
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%) scale(3);
     }
 
     .shop-section,

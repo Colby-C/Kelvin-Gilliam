@@ -280,6 +280,7 @@ textarea {
 
     .image-text {
         font-size: 5vw;
+        bottom: 15%;
     }
 
     .image-container {
@@ -289,10 +290,11 @@ textarea {
         position: relative;
         top: -40%;
         margin-bottom: -420px;
+        z-index: 5;
     }
 
     .image-container::before {
-        height: 125vh;
+        height: 128vh;
     }
 
     .athlete-photo {
